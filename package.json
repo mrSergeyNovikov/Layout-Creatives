@@ -1,5 +1,5 @@
 {
-  "name": "firstlanding",
+  "name": "creatives",
   "version": "1.0.0",
   "description": "* Убедиться, что установленный node.js и npm. Для этого достаточно написать в терминале:",
   "main": "gulpfile.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrSergeyNovikov/FirstLanding.git"
+    "url": "git+https://github.com/mrSergeyNovikov/LayoutCreatives.git"
   },
   "author": "Sergey Novikov",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrSergeyNovikov/FirstLanding/issues"
+    "url": "https://github.com/mrSergeyNovikov/LayoutCreatives/issues"
   },
-  "homepage": "https://github.com/mrSergeyNovikov/FirstLanding#readme",
+  "homepage": "https://github.com/mrSergeyNovikov/LayoutCreatives#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "github:gulpjs/gulp#4.0",
