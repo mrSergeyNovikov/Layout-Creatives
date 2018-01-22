@@ -1,0 +1,9 @@
+- var linkItems = ['facebook-official', 'twitter', 'google-plus', 'linkedin'];
+- var linkUrls = ['facebook.com', 'twitter.com', 'google.com', 'linkedin.com'];
+
+.social
+    .social__icon
+        each item, key in linkItems
+            a.social__links(href="http://" + linkUrls[key] target="_blank")
+                i(class="fa fa-" + item aria-hidden="true")
+                    span.visually-hidden=linkItems

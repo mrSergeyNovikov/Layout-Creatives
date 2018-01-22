@@ -1,0 +1,10 @@
+.header {
+    min-height: 880px;
+    background: rgba(0, 0, 0, 0.5) url('../images/bg-header.jpg') center/cover no-repeat;
+
+    &__top {
+        min-height: 115px;
+        padding: 20px 0;
+        border-bottom: 1px solid #ffffff8e;
+    }
+}

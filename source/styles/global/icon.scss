@@ -1,0 +1,29 @@
+.social {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 29px;
+    
+
+    &__links {
+        margin-left: 20px;
+        padding: 10px;
+        color: #fff;
+
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    &__icon {
+
+        .fa {
+            color: #fff;
+            font-size: 1.25rem;
+
+            &:hover {
+                color: lighten(#0000ff, 25%)
+            }
+        }
+    }
+}
