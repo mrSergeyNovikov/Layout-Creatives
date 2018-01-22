@@ -1,0 +1,32 @@
+.nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 150px;
+    margin-right: 58px;
+    font-size: 1.25rem;
+
+    &__link {
+        display: inline-block;
+        position: relative;
+        vertical-align: top;
+        padding: 27px 20px;
+        font-family: $ff-main-light;
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #ffffff;
+        transition: .3s ease-in-out;
+        
+
+        &:hover::after,
+        &--active::after {
+            content: '';
+            position: absolute;
+            top: 96px;
+            left: 5px;
+            width: 90%;
+            height: 3px;
+            border-bottom: 3px solid #11749e;
+        }
+        
+    }
+}

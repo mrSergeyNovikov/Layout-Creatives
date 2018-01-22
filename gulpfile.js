@@ -37,13 +37,8 @@ gulp.task('server', function() {
 
 /* ------------ js ------------- */
 gulp.task('js', function() {
-  return gulp.src([
-      'source/js/init.js',    
-      'source/js/form.js',
-      'source/js/navigation.js',
-      'source/js/validation.js',      
-      'source/js/main.js' 
-      
+  return gulp.src([     
+      'source/js/main.js'     
     ])
     .pipe(sourcemaps.init())
     .pipe(concat('main.min.js'))
