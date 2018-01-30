@@ -41,25 +41,31 @@
                 width: 130px;
                 height: 130px;
 
-                &--write {
+                &--write::after {
+                    content: '\f044';
                     @include centerer-xy();
+                    font-family: FontAwesome;
                     font-size: 30px;
                 }
 
-                &--search {
+                &--search::after {
+                    content: '\f002 ';
                     @include centerer-xy();
+                    font-family: FontAwesome;
                     font-size: 30px;
                 }
 
-                &--comment {
+                &--comment::after {
+                    content: '\f0e5';
                     @include centerer-xy();
+                    font-family: FontAwesome;
                     font-size: 30px;
                 }
             }
 
             .title {
                 padding: 15px 0;
-                font-family: ff-main-bold;
+                font-family: $ff-main-bold;
                 font-size: 18px;
                 text-transform: uppercase;
             }
