@@ -1,0 +1,73 @@
+.agency {
+    padding-top: 160px;
+    padding-bottom: 115px;
+    font-family: $ff-main;
+    background-color: #11749e;
+    color: $main-color;
+    text-align: center;
+
+    &__title {
+        position: relative;
+        margin-bottom: 125px;
+        font-size: 37px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+
+        z-index:5;
+
+        &::after {
+            content: 'W';
+            @include centerer-xy();
+            font-family: $ff-title;
+            font-size: 247px;
+            opacity: 0.18;
+
+            z-index: 2;
+        }
+    }
+
+    &__feature {
+        display: flex;
+        justify-content: space-between;
+        
+        .feature {
+            width: 33%;
+            .icon {
+                position: relative;
+                margin: auto;
+                background: #2e85aa;
+                border: 1px solid transparent;
+                border-radius: 50%;
+                width: 130px;
+                height: 130px;
+
+                &--write {
+                    @include centerer-xy();
+                    font-size: 30px;
+                }
+
+                &--search {
+                    @include centerer-xy();
+                    font-size: 30px;
+                }
+
+                &--comment {
+                    @include centerer-xy();
+                    font-size: 30px;
+                }
+            }
+
+            .title {
+                padding: 15px 0;
+                font-family: ff-main-bold;
+                font-size: 18px;
+                text-transform: uppercase;
+            }
+
+            .text {
+                
+            }
+        }
+    }
+    
+}
