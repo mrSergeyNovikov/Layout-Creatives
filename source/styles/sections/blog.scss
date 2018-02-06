@@ -1,6 +1,6 @@
 .blog {
     padding-top: 150px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
     font-family: $ff-main;
     color: $text-color;
     text-align: center;
@@ -30,7 +30,7 @@
     &__feature {
         display: flex;
         justify-content: space-between;
-
+        margin-bottom: 100px;
 
         .feature {
             width: 270px;
@@ -45,8 +45,36 @@
             }
 
             .text {  
-                color: title-color;
+                color: $title-color;
             }
         }
+    }
+
+    &__footer {
+
+        padding-top: 105px;
+        padding-bottom: 150px;
+        background-color: #11749e;
+
+        .blog__footer--flex {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .text { 
+            display: flex;
+            justify-content: space-between;
+            width: 560px;
+            font-size: 15px;
+            color: $main__text-color;
+
+            &::before {
+                content: '\f044';
+                margin-right: 25px;
+                font-family: FontAwesome;
+                font-size: 135px;
+            }
+        }
+
     }
 }
