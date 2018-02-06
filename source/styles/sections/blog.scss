@@ -1,0 +1,52 @@
+.blog {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-family: $ff-main;
+    color: $text-color;
+    text-align: center;
+
+    &__title {
+        position: relative;
+        margin-bottom: 105px;
+        font-size: 37px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    
+        z-index:5;
+    
+        &::after {
+            content: 'B';
+            @include centerer-xy();
+            @include letter();
+        }
+    }
+
+    &__text {
+        margin-bottom: 70px;
+        font-size: 30px;
+        color: $title-color;
+    }
+
+    &__feature {
+        display: flex;
+        justify-content: space-between;
+
+
+        .feature {
+            width: 270px;
+
+
+            .title {
+                margin-bottom: 18px;
+                margin-top: 30px;
+                font-size: 18px;
+                text-transform: uppercase;
+                color: $subscription-color;
+            }
+
+            .text {  
+                color: title-color;
+            }
+        }
+    }
+}

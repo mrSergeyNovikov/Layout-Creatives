@@ -1,5 +1,4 @@
 .akita {
-    min-height: 918px;
     max-width: 1366px;
     margin:  auto;
 }
@@ -61,5 +60,6 @@
     padding-bottom: 110px;
     padding-right: 155px;
     padding-left: 110px;
-    background-color: #fff;        
+    color: $title-color;
+    background-color: #f3f3f3;        
 }

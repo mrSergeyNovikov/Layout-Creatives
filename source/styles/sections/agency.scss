@@ -12,17 +12,13 @@
         font-size: 37px;
         text-transform: uppercase;
         letter-spacing: 1px;
-
+    
         z-index:5;
-
+    
         &::after {
             content: 'W';
             @include centerer-xy();
-            font-family: $ff-title;
-            font-size: 247px;
-            opacity: 0.18;
-
-            z-index: 2;
+            @include letter();
         }
     }
 
