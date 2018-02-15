@@ -1,0 +1,10 @@
+.block-phone {
+    min-height: 842px;
+    padding: 100px 0;
+    color: $main__text-color;
+    background: #000 url(../images/bg-phone.jpg) center/cover no-repeat;
+
+    &__paragraph {
+        margin-top: 220px;
+    }
+}
